@@ -1,0 +1,5 @@
+*.pdf
+.obsidian/*
+.claude/*
+copilot/*
+.smart-env
