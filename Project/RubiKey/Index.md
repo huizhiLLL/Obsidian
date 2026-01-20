@@ -2,7 +2,7 @@
 tags:
   - index
 ---
-- [[Vision]]
+- [[Project/RubiKey/Vision]]
 - [[Architecture]]
 - [[protocol]]
 - [[Dev]]
