@@ -1,1 +1,2 @@
 - [Lucide 图标库](https://lucide.dev/)
+- [heroicons 图标库](https://heroicons.com/)
