@@ -1,3 +1,4 @@
 - [Lucide 图标库](https://lucide.dev/)
 - [heroicons 图标库](https://heroicons.com/)
 - [phosphoricons 图标库](https://phosphoricons.com/)
+- [Google Fonts（icons）](https://fonts.google.com/icons)
