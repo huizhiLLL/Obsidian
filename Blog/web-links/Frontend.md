@@ -1,1 +1,1 @@
-- [Lucide 前端图标库](https://lucide.dev/)
+- [Lucide 图标库](https://lucide.dev/)
