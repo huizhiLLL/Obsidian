@@ -6,3 +6,4 @@
 - [Valine（无后端评论系统）](https://valine.js.org/)
 - [alxian 的前端资源](https://www.alxian.cn/resource)
 - [ColorDrop](https://colordrop.io/)
+- [icon-icons](https://icon-icons.com/zh/)
