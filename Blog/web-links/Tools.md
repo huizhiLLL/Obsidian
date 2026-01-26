@@ -7,3 +7,5 @@ categories:
 ---
 - [Astral（github star manager）](https://app.astralapp.com/dashboard)
 - [removebg 抠图](https://www.remove.bg/zh)
+- [LatexLive](https://www.latexlive.com/)
+- [ChatExcel](https://www.chatexcel.com/)
