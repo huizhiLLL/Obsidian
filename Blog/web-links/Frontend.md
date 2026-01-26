@@ -7,3 +7,4 @@
 - [alxian 的前端资源](https://www.alxian.cn/resource)
 - [ColorDrop](https://colordrop.io/)
 - [icon-icons](https://icon-icons.com/zh/)
+- [Vitepresss Theme Teek](https://vp.teek.top/)
