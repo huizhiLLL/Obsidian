@@ -5,3 +5,4 @@
 - [igoutu 图标库](https://igoutu.cn/icons)
 - [Valine（无后端评论系统）](https://valine.js.org/)
 - [alxian 的前端资源](https://www.alxian.cn/resource)
+- [ColorDrop](https://colordrop.io/)
