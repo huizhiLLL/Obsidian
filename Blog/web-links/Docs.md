@@ -1,1 +1,2 @@
 - [Zed](https://zedhub.org/)
+- [Sider](https://sider.ai/zh-CN/setup)
