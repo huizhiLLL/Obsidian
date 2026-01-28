@@ -1,6 +1,2 @@
-## to do
+## Did
 1. 
-## did
-1.  
-
-## think

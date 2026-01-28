@@ -1,0 +1,18 @@
+---
+profileName: huizhi
+postId: 338
+postType: post
+categories:
+  - 6
+---
+- [Lucide 图标库](https://lucide.dev/)
+- [heroicons 图标库](https://heroicons.com/)
+- [phosphoricons 图标库](https://phosphoricons.com/)
+- [Google Fonts（icons）](https://fonts.google.com/icons)
+- [igoutu 图标库](https://igoutu.cn/icons)
+- [Valine（无后端评论系统）](https://valine.js.org/)
+- [alxian 的前端资源](https://www.alxian.cn/resource)
+- [ColorDrop](https://colordrop.io/)
+- [icon-icons](https://icon-icons.com/zh/)
+- [Vitepresss Theme Teek](https://vp.teek.top/)
+- [NavNav](https://thuvien.org/navnav)
