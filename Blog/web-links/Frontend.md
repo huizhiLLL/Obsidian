@@ -16,3 +16,4 @@ categories:
 - [icon-icons](https://icon-icons.com/zh/)
 - [Vitepresss Theme Teek](https://vp.teek.top/)
 - [NavNav](https://thuvien.org/navnav)
+- [Rose Pine](https://rosepinetheme.com/)
