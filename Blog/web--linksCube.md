@@ -1,0 +1,2 @@
+- [Speed Cube Database](https://www.speedcubedb.com/)
+- [Speed Cube Database](https://www.speedcubedb.com/)
