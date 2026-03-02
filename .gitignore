@@ -6,3 +6,6 @@ copilot/*
 password/
 github/star/
 Downloads/
+*.png
+*.jpg
+*.svg

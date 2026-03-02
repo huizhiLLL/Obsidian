@@ -1,4 +1,10 @@
-
+---
+profileName: huizhi
+postId: 447
+postType: post
+categories:
+  - 5
+---
 ## 引言
 
 就像使用浏览器有一些常去的网址,我们的电脑使用在平时一样有高频使用的软件。因而会有桌面、快捷方式、任务栏、开始栏等的存在。
@@ -13,10 +19,10 @@
 
 其实这里本来想放点 GIF 的,稍微录了点体积好大,也有点麻烦,干脆直接放点图吧()
 
-![[kando1.png]]
-![[kando2.png]]
-![[kando3.png]]
-![[kando4.png]]
+![kando1.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando1.png)
+![kando2.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando2.png)
+![kando3.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando3.png)
+![kando4.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando4.png)
 
 ## 快速开始
 
@@ -26,7 +32,7 @@ Kando 对 Windows、Mac、Linux 平台均支持,安装可见[官方文档](https
 
 ### 配置和使用
 
-![[Kando.png]]
+![Kando.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/Kando.png)
 
 对于 Kando 来说,几乎无需做什么初始化的配置,上手即用,只需要随着使用不断完善自己的导航库。
 
