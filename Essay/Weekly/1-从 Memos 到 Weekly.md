@@ -4,7 +4,7 @@ image: /assets/1.svg
 description: Weekly-Memos 的第一篇周记
 ---
 
-<img src="./assets/start.png" alt="Weekly-Memos" />
+<img src="./assets/1.svg" alt="Weekly-Memos" />
 
 <small>这是 Weekly-Memos 的第一篇周记</small>
 
@@ -47,7 +47,7 @@ description: Weekly-Memos 的第一篇周记
 - [SharpTimer](https://github.com/huizhiLLL/SharpTimer)：Win UI 3 原生计时器，支持智能魔方
 - CubeAgent：还在本地开发中  是一个偏向定制底层工具的 ai agent，强调魔方领域的交互革新
   demo 图：
-  <img src = "./assets/cubeagent.png">
+<img src="./assets/cubeagent.png" alt="cubeagent" />
 - 以及一些其他的工具维护
 开学后的这两个月，开发强度高了很多，主要是 codex 的出现吧，的确让我的效率提高了很多，vibe 的爽感也高了不少
 
