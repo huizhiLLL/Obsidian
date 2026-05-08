@@ -1,0 +1,78 @@
+name: Sync Weekly Memos
+
+on:
+  push:
+    paths:
+      - "Essay/Weekly/**"
+      - ".github/workflows/sync-weekly.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-weekly-memos
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Obsidian notes
+        uses: actions/checkout@v4
+        with:
+          path: obsidian
+
+      - name: Checkout Weekly site
+        uses: actions/checkout@v4
+        with:
+          repository: huizhiLLL/Weekly
+          token: ${{ secrets.WEEKLY_REPO_TOKEN }}
+          path: weekly
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: weekly/package.json
+
+      - name: Sync posts and assets
+        run: |
+          set -euo pipefail
+
+          mkdir -p weekly/src/pages/posts weekly/public/assets
+
+          rsync -av --delete \
+            --include='*.md' \
+            --exclude='*' \
+            obsidian/Essay/Weekly/ weekly/src/pages/posts/
+
+          if [ -d obsidian/Essay/Weekly/assets ]; then
+            rsync -av --delete obsidian/Essay/Weekly/assets/ weekly/public/assets/
+          else
+            rm -rf weekly/public/assets/*
+          fi
+
+      - name: Generate indexes and build site
+        working-directory: weekly
+        run: |
+          npm install
+          node build.js
+          npm run build
+
+      - name: Commit and push Weekly changes
+        working-directory: weekly
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add src/pages/posts public/assets README.md RECENT.md posts.json public/posts.json src/data/image-metadata.json
+
+          if git diff --staged --quiet; then
+            echo "No Weekly changes to commit."
+            exit 0
+          fi
+
+          git commit -m "同步 Obsidian 周记内容"
+          git push

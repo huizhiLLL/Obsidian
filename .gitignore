@@ -9,3 +9,5 @@ Downloads/
 *.png
 *.jpg
 *.svg
+!Essay/Weekly/assets/
+!Essay/Weekly/assets/**
