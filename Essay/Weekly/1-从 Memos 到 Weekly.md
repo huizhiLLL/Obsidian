@@ -77,3 +77,8 @@ description: Weekly-Memos 的第一篇周记
 因此课程学习忽略了很多 依然重蹈覆辙 很多都没有学 即便是处于纯摆烂的状态了
 也无所谓 大部分可能对我都没啥用 因为我不追求绩点和保研了
 硬技术的提升才最重要（虽然但是机械/电子相关的硬技术是真的一点还没学）
+
+> neruo-sama酱可爱捏😊
+
+<img src='./assets/neuro1.png'/>
+<img src='./assets/neuro2.png'/>
