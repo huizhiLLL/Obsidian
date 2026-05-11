@@ -1,6 +1,6 @@
 ---
 date:
-  "{ date:YYYY/MM/DD }":
+  {{ date:YYYY/MM/DD }}
 image: /assets/1.svg
 description: 摘要
 ---

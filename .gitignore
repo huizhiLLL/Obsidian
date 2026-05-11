@@ -11,3 +11,5 @@ Downloads/
 *.svg
 !Essay/Weekly/assets/
 !Essay/Weekly/assets/**
+.claude/
+.claudian/
