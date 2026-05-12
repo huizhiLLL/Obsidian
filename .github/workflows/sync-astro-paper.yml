@@ -58,6 +58,36 @@ jobs:
             rm -rf astropaper/public/blog-assets/*
           fi
 
+          node <<'NODE'
+          const fs = require("node:fs");
+          const path = require("node:path");
+
+          const blogDir = path.join("astropaper", "src", "data", "blog");
+
+          const walk = dir => {
+            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+              const fullPath = path.join(dir, entry.name);
+              if (entry.isDirectory()) {
+                walk(fullPath);
+                continue;
+              }
+
+              if (!entry.isFile() || !entry.name.endsWith(".md")) continue;
+
+              const content = fs.readFileSync(fullPath, "utf8");
+              const normalized = content
+                .replaceAll("](./blog-assets/", "](/blog-assets/")
+                .replaceAll("](blog-assets/", "](/blog-assets/");
+
+              if (normalized !== content) {
+                fs.writeFileSync(fullPath, normalized);
+              }
+            }
+          };
+
+          walk(blogDir);
+          NODE
+
       - name: Build AstroPaper site
         working-directory: astropaper
         run: |
