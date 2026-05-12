@@ -1,3 +1,14 @@
+---
+title: '拿到一台 VPS 后的初始化'
+pubDatetime: 2026-01-24T18:19:28+08:00
+draft: false
+featured: false
+tags:
+  - VPS
+  - Linux
+  - 运维
+description: '记录拿到 VPS 之后的初始化流程、基础工具安装、BBR 开启和常用配置。'
+---
 > **注：** 本篇记录以 Debian 12 为例且为个人偏好，仅供参考
 
 ## 1. 通过 SSH 客户端连接主机
@@ -56,3 +67,5 @@ vim /etc/hosts
 
 exec bash  # 修改后刷新
 ```
+
+

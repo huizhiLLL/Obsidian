@@ -1,12 +1,14 @@
 ---
-profileName: huizhi
-postId: 297
-postType: post
-categories:
-  - 5
+title: 'Base64 隐写笔记'
+pubDatetime: 2025-11-11T15:03:08+08:00
+draft: false
+featured: false
+tags:
+  - CTF
+  - 编码
+  - Python
+description: '关于 Base64 隐写的基本原理、编码规律和一个简短的笔记整理。'
 ---
-# Base64 隐写笔记
-
 ## 一、Base64 编码基础
 
 对于 Base64 的编码，我是以 **3 对 4** 来看的，等号即空位。
@@ -123,3 +125,5 @@ print(resultString)
 很多实现非常基本繁琐，问过感觉也好麻烦。
 
 先这样，后续再优化（函数包装、UI 加入等等）。
+
+

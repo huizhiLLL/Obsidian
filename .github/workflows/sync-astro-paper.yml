@@ -1,0 +1,83 @@
+name: Sync AstroPaper Blog
+
+on:
+  push:
+    paths:
+      - "Blog/Note/**"
+      - ".github/workflows/sync-astro-paper.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-astro-paper-blog
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Obsidian notes
+        uses: actions/checkout@v4
+        with:
+          path: obsidian
+
+      - name: Checkout AstroPaper site
+        uses: actions/checkout@v4
+        with:
+          repository: huizhiLLL/Astro-Paper
+          token: ${{ secrets.ASTRO_PAPER_REPO_TOKEN }}
+          path: astropaper
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+          cache-dependency-path: astropaper/pnpm-lock.yaml
+
+      - name: Sync posts and assets
+        run: |
+          set -euo pipefail
+
+          mkdir -p astropaper/src/data/blog astropaper/public/blog-assets
+
+          rsync -av --delete --prune-empty-dirs \
+            --include='*/' \
+            --include='*.md' \
+            --exclude='*' \
+            obsidian/Blog/Note/ astropaper/src/data/blog/
+
+          if [ -d obsidian/Blog/Note/blog-assets ]; then
+            rsync -av --delete obsidian/Blog/Note/blog-assets/ astropaper/public/blog-assets/
+          else
+            rm -rf astropaper/public/blog-assets/*
+          fi
+
+      - name: Build AstroPaper site
+        working-directory: astropaper
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Commit and push AstroPaper changes
+        working-directory: astropaper
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add src/data/blog public/blog-assets public/pagefind
+
+          if git diff --staged --quiet; then
+            echo "No AstroPaper changes to commit."
+            exit 0
+          fi
+
+          git commit -m "同步 Obsidian 博客内容"
+          git push

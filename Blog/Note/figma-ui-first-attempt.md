@@ -1,12 +1,14 @@
 ---
-profileName: huizhi
-postId: 353
-postType: post
-categories:
-  - 5
+title: 'Figma UI 设计的初次尝试'
+pubDatetime: 2026-01-28T02:57:46+08:00
+draft: false
+featured: false
+tags:
+  - 设计
+  - Figma
+  - UI
+description: '第一次接触 Figma 做 UI 设计的过程，包含配色思考和实际成品。'
 ---
-# Figma UI 设计的初次尝试
-
 ## 一、历程
 
 ### 背景
@@ -15,7 +17,7 @@ categories:
 ### 成果
 我个人还是挺满意的，除了配色之外基本都和教程差不多，我做了一些微调。
 
-![huizhi-figma.png](https://blog.huizhi.ink/wp-content/uploads/2026/01/huizhi-figma.png)
+![huizhi-figma.png](blog-assets/figma/huizhi-figma.png)
 
 ### 配色方案思考
 
@@ -81,3 +83,5 @@ Regular (Body, Caption)
 ---
 
 *参考资料：[B 站 Figma UI 设计教程](https://www.bilibili.com/video/BV1QzADeFEcF/)*
+
+

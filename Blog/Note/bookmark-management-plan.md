@@ -1,12 +1,13 @@
 ---
-profileName: huizhi
-postId: 367
-postType: post
-categories:
-  - 5
+title: '网站收藏的管理方案'
+pubDatetime: 2026-01-30T22:18:58+08:00
+draft: false
+featured: false
+tags:
+  - 工具
+  - 方案分享
+description: '讨论网站收藏和日常导航的分工，以及更适合自己的管理方式。'
 ---
-# 网站收藏的管理方案
-
 ## 一、引言
 
 在开始之前，我想先阐明**收藏**和**导航**的区别。
@@ -22,7 +23,7 @@ categories:
 
 所以就需要建立两套系统，一套用于日常导航，一套用于收藏管理。
 
-前者我的部署方案可见[网页导航部署以及图床建立](https://blog.huizhi.ink/2025/11/20/nav-picgo/) 这一篇博文，此篇文章将主要介绍网站收藏的管理方案。
+前者我的部署方案可见[网页导航部署以及图床建立](https://blog.huizhi.ink/posts/web-navigation-and-image-hosting) 这一篇博文，此篇文章将主要介绍网站收藏的管理方案。
 
 ---
 
@@ -64,7 +65,7 @@ graph LR
 
 由于分类很多，这些推送的网站管理文章会对首页、归档造成某种 **污染**。
 
-（而这些分类的文章我统一链接到一个[主导航页面](https://blog.huizhi.ink/web_links/) 进行展示）
+（而这些分类的文章我统一链接到一个主导航页面进行展示）
 
 ### 解决方法
 
@@ -137,3 +138,4 @@ $the_query = new WP_Query( $args );
 - 希望将私人收藏转化为公开资源分享站
 - 使用 Obsidian 管理知识库并希望与博客联动
 - 需要对收藏内容进行分类管理
+

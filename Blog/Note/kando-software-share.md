@@ -1,9 +1,13 @@
 ---
-profileName: huizhi
-postId: 447
-postType: post
-categories:
-  - 5
+title: 'Kando 软件推荐：优雅实现电脑导航与快速启动'
+pubDatetime: 2026-02-28T16:45:49+08:00
+draft: false
+featured: false
+tags:
+  - Windows
+  - 效率
+  - 工具
+description: '分享 Kando 这类导航式启动工具，以及它在日常电脑使用中的意义。'
 ---
 ## 引言
 
@@ -19,10 +23,10 @@ categories:
 
 其实这里本来想放点 GIF 的,稍微录了点体积好大,也有点麻烦,干脆直接放点图吧()
 
-![kando1.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando1.png)
-![kando2.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando2.png)
-![kando3.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando3.png)
-![kando4.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/kando4.png)
+![kando1.png](blog-assets/kando/kando1.png)
+![kando2.png](blog-assets/kando/kando2.png)
+![kando3.png](blog-assets/kando/kando3.png)
+![kando4.png](blog-assets/kando/kando4.png)
 
 ## 快速开始
 
@@ -32,7 +36,7 @@ Kando 对 Windows、Mac、Linux 平台均支持,安装可见[官方文档](https
 
 ### 配置和使用
 
-![Kando.png](https://blog.huizhi.ink/wp-content/uploads/2026/02/Kando.png)
+![Kando.png](blog-assets/kando/Kando.png)
 
 对于 Kando 来说,几乎无需做什么初始化的配置,上手即用,只需要随着使用不断完善自己的导航库。
 
@@ -71,3 +75,4 @@ Kando 对 Windows、Mac、Linux 平台均支持,安装可见[官方文档](https
 - 使用一段时间后,发现这个软件在开机自启时是比较慢的,一般在开机之后还要等一会
 - 以及,没有类似于"窗口黑名单"的东西,即对于某些窗口禁用快捷启动的配置,只能手动去暂时禁用所有快捷方式(因为我玩 MC 时有时会不小心触发 Kando 的菜单启动……)
 - 好看,炫酷是真的哈哈哈
+

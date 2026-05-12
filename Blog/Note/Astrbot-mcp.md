@@ -1,3 +1,15 @@
+---
+title: 'Astrbot 与 MCP'
+pubDatetime: 2026-01-09T13:25:31+08:00
+draft: false
+featured: false
+tags:
+  - Astrbot
+  - MCP
+  - AI
+  - 魔方
+description: '把 MCP 能力接进 Astrbot 的一些实践，包括天气、WCA 查询和知识库方向。'
+---
 ## 一、初识 MCP
 
 近期经常刷到关于 MCP、Agent Skills 的视频。我自己开发其实是没有用过 MCP 提高效率的，例如 Web MCP、MySQL MCP 这些，依旧能工智人。
@@ -67,3 +79,4 @@
 而非常见的逻辑算法运算求解。
 
 这个的难度会难以想象的大，也无疑会跨越 AI 与 Cube 之间的巨大鸿沟。
+

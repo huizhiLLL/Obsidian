@@ -1,5 +1,13 @@
-# Slidev：开发者的演示文稿工具
-
+---
+title: '记首次使用 Slidev 进行 pre'
+pubDatetime: 2025-12-31T08:45:27+08:00
+draft: false
+featured: false
+tags:
+  - Slidev
+  - 工具
+description: '介绍 Slidev 的使用场景、工具特性，以及我实际拿它做演示文稿的体验。'
+---
 [Slidev](https://sli.dev) 其官方介绍为 **Presentation Slides for Developers**，我想也的确符合。
 
 ## 一、使用背景
@@ -58,3 +66,4 @@
 至于**开发速度**，我因为时间紧没有仔细阅读文档手写，直接让 AI 帮我写个大致的框架和内容，我再进行修改润色。
 
 反正大部分都是 HTML 和 MD，可读性也还可以。这样写出来的结果距我理想中的效果当然还是差一点的，所以后续也会再仔细去学一些 Slidev 独特的语法，来逐渐向我理想中的演示文稿靠近。
+

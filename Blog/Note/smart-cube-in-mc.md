@@ -1,3 +1,14 @@
+---
+title: '【教程】如何做到用智能魔方在 MC 中玩魔方'
+pubDatetime: 2026-03-30T00:58:12+08:00
+draft: false
+featured: true
+tags:
+  - 魔方
+  - MC
+  - 教程
+description: '把智能魔方、键盘映射和 Minecraft 里的机械动力魔方串起来的实现思路。'
+---
 ## 前言
 
 > 此处为具体思路和原理讲解，想要快速上手可直接跳至**环境准备**开始。
@@ -35,7 +46,7 @@
 
 参考了 cstimer 等项目后，我把这个映射层封装为了一个桌面工具「**RubiKey**」。
 
-![RubiKey_2.png](https://blog.huizhi.ink/wp-content/uploads/2026/03/RubiKey_2.png)
+![RubiKey_2.png](blog-assets/rubikey/RubiKey_2.png)
 
 工具已开源，欢迎点个 Star 支持一下喵～
 
@@ -100,3 +111,5 @@
 **至此教程结束** 
 
 但这只是一个应用上的体现（Minecraft）——在拥有这样一个映射层的软件之后，你可以自由配置想要映射的内容，玩 2048、地铁跑酷、赛车游戏等键鼠复杂度不高的内容都变得轻而易举，不再受限于 app 生态或浏览器沙盒，你的智能魔方能操控什么，完全由你来定义～
+
+
