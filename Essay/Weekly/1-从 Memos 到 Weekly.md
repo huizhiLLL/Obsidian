@@ -4,8 +4,6 @@ image: /assets/1.svg
 description: Weekly-Memos 的第一篇周记
 ---
 
-<img src="./assets/1.svg" alt="Weekly-Memos" />
-
 ## 背景
 
 偶然逛到 tw93 老师的 [潮流周刊](https://weekly.tw93.fun/) ，真心觉得不错，内容都很有价值，即便只是每周分享
