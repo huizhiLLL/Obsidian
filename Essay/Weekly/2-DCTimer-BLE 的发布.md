@@ -1,7 +1,7 @@
 ---
 date: 2026/05/17
 image: /assets/dctimer.png
-description: 无
+description: DCTimer-BLE
 ---
 
 ## 好物分享
