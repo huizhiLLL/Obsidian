@@ -1,6 +1,5 @@
 ---
 date: 2026/05/10
-image: /assets/1.svg
 description: Weekly-Memos 的第一篇周记
 ---
 
