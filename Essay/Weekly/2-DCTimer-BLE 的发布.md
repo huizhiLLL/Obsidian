@@ -13,7 +13,7 @@ description: DCTimer-BLE
 ## Done
 
 - **周一** 晚上概率论+晚上时间 把 [DCTimer-BLE](https://github.com/huizhiLLL/DCTimer-BLE) 的  [官网](https://dctimer.huizhi.ink) 简单落地，设计上 主要是布局，参考了[妙言](https://miaoyan.app/) 的设计
-<img src="./assets/dctimer.png" />
+<img src="./assets/25-02/dctimer.png" />
 - **周二** 把自己的 [新博客](https://blog.huizhi,ink/) 搭好并迁移数据了 这一版的是我比较喜欢的风格
   下午花了会，捯饬了一般发了 bb 空间，收获两个友链
   
@@ -35,7 +35,7 @@ description: DCTimer-BLE
   第三个只有核心 poc 的功能验证，整体的使用上还有很多地方要优化
   第四个还只是想法初步探讨，代码还没开始落地
   至于 RubiKey，我祝它好运💦
-<img src="./assets/codex.png" />
+<img src="./assets/25-02/codex.png" />
 晚上又试了一下 Yepanywhere，使用官方中转的话，国内网络不是很稳定，容易超时，需要开一下代理，其他的体验都很不错，就是如果能继承 Codex APP 的项目顺序和额外对话历史就好了，而不是只能从 Session 开始，并且没有重命名
 
 另外，我已经开始构建 HelloCube 了~

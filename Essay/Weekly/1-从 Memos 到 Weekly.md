@@ -43,7 +43,7 @@ description: Weekly-Memos 的第一篇周记
 - [Kaku](https://github.com/tw93/Kaku)：开发的 skill 技能包，流程完整，很实用
 - **字体** 仓耳今楷系列：也是 tw93 老师常用的字体，比 lxgw 稍正式一点，更耐看（感觉主要还是 lxgw 真的看腻了）
 
-<img src="./assets/wakatime.png" alt="wakatime" />
+<img src="./assets/25-01/wakatime.png" alt="wakatime" />
 
 (用 `Kami` 生成的一个 `WakaTime` 分析报告)
 
@@ -58,7 +58,7 @@ description: Weekly-Memos 的第一篇周记
 
   demo 图：
 
-<img src="./assets/cubeagent.png" alt="cubeagent" />
+<img src="./assets/25-01/cubeagent.png" alt="cubeagent" />
 
   [b站演示](https://www.bilibili.com/video/BV1wNRZBqEf6/)
 
@@ -102,5 +102,5 @@ description: Weekly-Memos 的第一篇周记
 
 > neruo-sama 可爱捏😊
 
-<img src="./assets/neuro1.png"  />
-<img src="./assets/neuro2.png"  />
+<img src="./assets/25-01/neuro1.png"  />
+<img src="./assets/25-01/neuro2.png"  />
