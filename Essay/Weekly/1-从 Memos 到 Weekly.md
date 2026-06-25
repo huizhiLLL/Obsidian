@@ -1,6 +1,8 @@
 ---
 date: 2026/05/10
-description: Weekly-Memos 的第一篇周记
+tags:
+  - 周记
+  - 博客
 ---
 
 ## 背景
