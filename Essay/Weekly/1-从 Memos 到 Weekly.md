@@ -53,7 +53,7 @@ Memos 太碎 可沉淀价值太低
 最近在写魔方相关的软件：
 - [SharpTimer](https://github.com/huizhiLLL/SharpTimer)：Win UI 3 原生计时器，支持智能魔方
 - [Cugent](https://github.com/huizhiLLL/Cugent)：初期开发中，偏向定制底层工具的 AI agent，强调魔方领域的交互革新
-  Demo 图(  [演示视频](https://www.bilibili.com/video/BV1wNRZBqEf6/))：
+  Demo 图([演示视频](https://www.bilibili.com/video/BV1wNRZBqEf6/))：
 
 <img src="./assets/26-01/cubeagent.png" alt="cubeagent" />
 
@@ -66,6 +66,7 @@ Codex 用太多，现在对 Agent loop 和 Toolcall 的已经欲罢不能，所�
 至于技术选型，也考虑良久：
 - cstimer 浏览器插件：发挥空间不够，只能做轻量化统计
 - 原生计时器集成，cstimer 不太可能 pr（AI 堆史山），DCTimer 底子太老，不适合塞 AI
+
 考虑大众使用门槛，选择了 web 的 AI chatbox，花了十几个小时才把 Agent loop 的 demo 做出来
 开发过程有些痛苦，搓一个  Agent loop 挺麻烦，对于底层工具的设计上，不够清晰，算法也不会💦
 
