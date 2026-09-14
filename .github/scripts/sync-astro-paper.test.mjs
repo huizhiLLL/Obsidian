@@ -31,3 +31,9 @@ test("sync writes separate targets, preserves existing data and skips identical 
     assert.equal(await readFile(target,"utf8"),"updated");
   } finally { await rm(root,{recursive:true,force:true}); }
 });
+
+test("workflow commits NBT inputs without force-adding generated assets", async () => {
+  const workflow = await readFile(new URL("../workflows/sync-astro-paper.yml", import.meta.url), "utf8");
+  assert.match(workflow, /git add src\/data\/mc\/structures/);
+  assert.doesNotMatch(workflow, /git add -f public\/pagefind/);
+});
