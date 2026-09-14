@@ -5,6 +5,7 @@ on:
     paths:
       - "Blog/Note/**"
       - ".github/workflows/sync-astro-paper.yml"
+      - ".github/scripts/sync-astro-paper*"
   workflow_dispatch:
 
 concurrency:
@@ -36,57 +37,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: pnpm
           cache-dependency-path: astropaper/pnpm-lock.yaml
 
-      - name: Sync posts and assets
-        run: |
-          set -euo pipefail
+      - name: Test incremental sync
+        run: node --test obsidian/.github/scripts/sync-astro-paper.test.mjs
 
-          mkdir -p astropaper/src/data/blog astropaper/public/blog-assets
-
-          rsync -av --delete --prune-empty-dirs \
-            --include='*/' \
-            --include='*.md' \
-            --exclude='*' \
-            obsidian/Blog/Note/ astropaper/src/data/blog/
-
-          if [ -d obsidian/Blog/Note/blog-assets ]; then
-            rsync -av --delete obsidian/Blog/Note/blog-assets/ astropaper/public/blog-assets/
-          else
-            rm -rf astropaper/public/blog-assets/*
-          fi
-
-          node <<'NODE'
-          const fs = require("node:fs");
-          const path = require("node:path");
-
-          const blogDir = path.join("astropaper", "src", "data", "blog");
-
-          const walk = dir => {
-            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-              const fullPath = path.join(dir, entry.name);
-              if (entry.isDirectory()) {
-                walk(fullPath);
-                continue;
-              }
-
-              if (!entry.isFile() || !entry.name.endsWith(".md")) continue;
-
-              const content = fs.readFileSync(fullPath, "utf8");
-              const normalized = content
-                .replaceAll("](./blog-assets/", "](/blog-assets/")
-                .replaceAll("](blog-assets/", "](/blog-assets/");
-
-              if (normalized !== content) {
-                fs.writeFileSync(fullPath, normalized);
-              }
-            }
-          };
-
-          walk(blogDir);
-          NODE
+      - name: Sync posts, images and structures
+        run: node obsidian/.github/scripts/sync-astro-paper.mjs obsidian/Blog/Note astropaper
 
       - name: Build AstroPaper site
         working-directory: astropaper
