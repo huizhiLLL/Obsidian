@@ -180,3 +180,122 @@ fix:
 /timer 选择器统一为一个 & 选择器拖动影响全屏滚动
 /recon 操作控件居中 & 链接区优化
 /pet 关闭显示继承点击到统计页面
+
+---
+### 10.11
+
+feat：
+/timer 智能魔方相对朝向更新
+/timer 智能魔方双层识别条件放宽
+/timer 复盘ui调整 废步识别
+/timer 精简优化顶部ui 减少重复
+
+fix：
+/timer coll 识别纠正
+/timer 智能魔方方向映射问题；
+/account WCA 登录时页面残留；
+
+---
+### 10.13 （10-19）
+
+feat：
+/timer 智能魔方自动校准朝向
+/download app 下载页面 Android 直链下载
+/release 安卓上架 Google Play
+/android 直链版支付接入改为微信/支付宝
+/timer Roux/ZZ 复盘重建补齐
+/timer 回放区动画非陀螺仪时使用重建步骤、进度/虚拟魔方可拖动 & 调整ui
+/timer 复盘区十字模式切换
+/timer 智能魔方连接面板精简ui
+/timer 复盘区顶层步骤 过滤后严格等效纠正公式记号（需要继续测试边界）
+
+fix：
+/android 复盘布局异常
+/timer 复盘区实时和停表复盘重复分析
+/timer 统一打乱菜单组织
+/timer 复盘区复制出现换行问题/不可复制问题
+/timer 回放区观察时间拉长动画执行时间
+/timer 多人计时打乱来源加载失败
+
+国内主流应用商店上架需要app备案 备案需要等待公司注册完成
+
+---
+### 10.17（10-20）
+
+feat：
+/dy 小程序重新上架 —— 暂时抛弃“教育”相关内容 —— 训练教学
+/apple watch 加入本地打乱与预览图生成与 Moyu32 Qiyi Gan v1-v3 适配
+/timer 复盘收录到 38 条全通过
+/alg 训练器路由迁移到 /timer
+/timer 设置 uiux 优化 和 部分bug 修复
+/uu远程 联动部分 安卓验收完成
+/sim 改版
+
+fix：
+/training 删除导航栏
+/miniprogram 页面回弹
+/alg 双底zb创建房间补齐 数量修正
+
+todo：
+/timer 智能魔方 ganv4 mac 无痕
+/timer 复盘时公式检索识别速度优化
+/recon 复盘收录自动化
+/timer 训练计时开关 学习进度简化 三条
+/sim ui优化
+
+---
+### 10.18
+
+feat：
+/ui 智能魔方设置以及模拟页面uiux优化
+
+fix：
+/chores 零碎bug
+
+---
+### 10.20
+
+feat：
+/sim uiux 优化；步骤转换与插入改写的交互调整
+/timer 成绩列表布局重构
+/home 骨架加载优化 防止高度不断跳动
+/loading 页面、内容统一加载动画
+/alg 统一专项训练路由参数
+/home 部分分类精简文案
+/timer 智能魔方mac地址随账号持久化保存
+/recon 搭建智能魔方规则修正工作流
+/alg 训练选择公式页面uiux优化
+/dy 小程序原生迁移
+
+fix：
+/recon 智能魔方实时复盘反复更新与布局跳动
+
+---
+### 10.24
+feat： 
+
+/dy 旧小程序完成更名 审核中
+/dy 新小程序完成新企业入驻 审核中 
+/wx 旧商户名完成解绑 审核中 
+/icp 提交备案主体更改 审核中 
+/gov 公安备案确认可变更备案主体 表单填写中 /recon 智能魔方新增五条规则修正 
+
+fix： 
+/pet 计时器与训练器页面自动隐藏 & 窗口位置漂移 
+/home 打乱选择器漂移 
+/timer 本地多人判断多选 & 比分
+
+---
+### 10.25
+
+feat：
+/workspace uiux翻新优化
+/workspace todo-checklist & 日期记录的时间细化 & 甘特图
+/home 背景图下的性能优化 ——  帧率提高
+/release 安卓 & Windows 构建更新发布流程完善
+/page 为 404 页面补齐页面
+
+fix：
+/timer 设置按钮样式引用缺失
+/timer 残留的解法文字按钮删除
+/desktop 继续统一timer ui&功能与Web保持一致
