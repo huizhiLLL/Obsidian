@@ -1,103 +1,6 @@
-### 9.15
 
-feat：
-/scramble 页面各板块布局重构；
-/timer gan qiyi moyu32 重置操作加入设备回写；
-/timer 设置 ui 优化
-/timer 页面布局优化 —— 打乱与时间调换；
-/timer 智能魔方相关文案精简优化
 
-fix：
-/timer gan v4 qiyi 智能魔方延迟（一包多发）；
-/timer moyu32 连接 —— mac 地址获取流程修复以及轴向问题；
-/recon 页面 id 不同导致项目重复；
-/wca 统计页面子页面主题色未跟随主题；
-devOrigin 白名单配置打通开发环境内网穿透；
-
----
-
-### 9.19
-
-feat：
-/timer 陀螺仪加入开关；
-/timer 虚拟魔方视角可拖动；
-
-fix：
-/account 微信小程序 wca 绑定修复 —— 采用短期绑定票据+浏览器引导；（待线上测试）
-/timer 智能魔方重置回写偏差；
-/timer 智能魔方结束时自动打开解法开关 & ready 时自动收起解法和复盘；
-/timer 复盘区回放速度与实际偏差；
-/timer 移动端下智能魔方复盘挤占元素问题优化；
-/timer 智能魔方复盘步序与分段分析解法未统一消费；同时优化文案
-
----
-
-### 9.20
-
-feat：
-/site 网站导航页面翻新，组件/主题统一；
-/miniprogram 小程序 moyu32 / qiyi 智能魔方跑通；
-/mobile 安卓端 ble 适配完成 —— moyu32 / gan v2 v3 / qiyi；
-/timer 多人计时联机智能魔方适配；（后端更新 待线上测试）
-/timer 智能魔方解法/复盘页加载优化；
-/timer 部分窗口遮罩 + 透明玻璃叠加样式优化；
-
-fix：
-/recon 页面项目选择器 icon 缺失；
-/scramble 统一打乱页面背景图文字样式；
-/timer 移动端页面打乱显示空间不足 / 滑动触摸问题；
-
----
-
-### 9.22
-
-feat：
-/timer 抽智能魔方 shared 组件
-/timer 优化复盘区布局 ui/ux 以及移动端下的复盘窗口表现
-/timer 优化陀螺仪跟随表现 更跟手
-/desktop 完善蓝牙桥接层（moyu32 qiyi）
-
-fix：
-/timer 虚拟魔方动作挂载导致的动画缺失
-
----
-
-### 9.26
-
-feat：
-/timer 复盘分享链接改为短链（登录态 + 分享时服务端保存 后端改动 需待线上验收）
-/timer 智能魔方联机功能验收完成
-/timer 智能魔方联机 pk 结算反馈与 uiux 优化
-/timer 继续抽 shared 统一智能魔方链路与部分timer ui
-/scramble Redi 打乱生成切换为 Moyu 风格（参考 cstimer）
-
----
-
-### 9.27
-
-feat：
-/timer 共享层基本抽出 Windows / Android timer 基本完善
-/desktop 调整布局和 Web 桌面端统一
-/release Google Play 与 ios 上架发布准备（进行中）
-/friends 好友间聊天交流（待测试）
-/notifications ios 补齐通道和设备能力（待测试）
-
-fix：
-/timer Windows 队列拥挤问题导致的智能魔方假连接
-
----
-
-### 9.29
-
-feat：
-/ai-assistant 切为 ds / uiux 改进
-/release ios / Android 提审推进（表单填完  ios 等付款协议审核；Google play  差传图和支付接入）
-/timer 剩余共享收口
-/timer 微信小程序端蓝牙计时器/Stactmat 适配
-
----
-
-### 10.4（13%）
+### 10.4（13%）（14-21）
 
 feat:
 /release google play 信息填写推进 支付开发接入
@@ -117,7 +20,7 @@ fix:
 
 ---
 
-### 10.5（35%）
+### 10.5（35%）（14-21）
 
 feat：
 /macos 智能魔方 BLE 适配补齐
@@ -134,7 +37,7 @@ fix：
 /tools 搜索框➕号样式优化
 
 ---
-### 10.6(200刀 30 %)
+### 10.6(200刀 30 %)（14-21）
 
 feat:
 /release 内购测试完成送审
@@ -154,7 +57,7 @@ fix:
 /math 图论内外环对应关系
 
 ---
-### 10.7 （200刀32%）
+### 10.7 （200刀32%）（14-21）
 
 feat:
 /timer 智能魔方专项阶段判断；按训练朝向判断；AUF 容许范围；专项训练扩展
@@ -182,7 +85,7 @@ fix:
 /pet 关闭显示继承点击到统计页面
 
 ---
-### 10.11
+### 10.11（15-22）
 
 feat：
 /timer 智能魔方相对朝向更新
@@ -244,7 +147,7 @@ todo：
 /sim ui优化
 
 ---
-### 10.18
+### 10.18（16-22）
 
 feat：
 /ui 智能魔方设置以及模拟页面uiux优化
@@ -253,7 +156,7 @@ fix：
 /chores 零碎bug
 
 ---
-### 10.20
+### 10.20（10-20）
 
 feat：
 /sim uiux 优化；步骤转换与插入改写的交互调整
@@ -271,7 +174,7 @@ fix：
 /recon 智能魔方实时复盘反复更新与布局跳动
 
 ---
-### 10.24
+### 10.24（11-21）
 feat： 
 
 /dy 旧小程序完成更名 审核中
@@ -286,7 +189,7 @@ fix：
 /timer 本地多人判断多选 & 比分
 
 ---
-### 10.25
+### 10.25（16-22）
 
 feat：
 /workspace uiux翻新优化
@@ -299,3 +202,64 @@ fix：
 /timer 设置按钮样式引用缺失
 /timer 残留的解法文字按钮删除
 /desktop 继续统一timer ui&功能与Web保持一致
+
+---
+### 10.27（10-20）
+
+feat：
+/beian 公安备案主体变更 已提交审核
+/admin 路由统一 + 页面布局重构（复用 workspace）
+/flip 视图切换时的共享元素过渡效果（site、recon 小图、公式库）
+/sop 预先的需求/提示词准备（5）以提高工作效率
+/alg 同类公式下的 case 切换（上/下按钮）
+/dy 旧小程序完成名称释放；新小程序入驻完成，基本信息审核中
+/timer 收录加入复盘联动面板便利测试
+/feat 智能魔方打乱样式优化（渐变 缩放）
+/recon 智能魔方复盘样式调整与 recon 页面统一
+/recon 规则修正：F2l 边界转体优先归属
+
+fix：
+/site 修复遗留的圆角引擎性能问题
+/timer 智能魔方首次公式加载问题
+/timer 智能魔方回放进度条hover显示公式
+/timer DNF 数码管样式修复
+/recon R2' 转写
+/timer 公式弹窗固定嵌入 & uiux 调整
+/recon 转体与操作的时序问题
+
+---
+### 10.31（10-19）
+
+feat：
+/home 补齐字库
+/alg  F2L类移动端布局优化 —— 视角选择 ；标签增加（主流 S 流）
+/download 安卓配置安全 ci 环境完善发布流程 & 安卓 Windows 线上发布；页面 ui 优化
+/trainer 桥式训练器页面 uiux 优化
+/trainer 移动端 ui 优化；导航栏与 timer 统一：自定义布局 & 长按公示标星
+/friend 聊天页面 ui 优化
+/accout & /home 所汇总页面以及子页面统一返回上下文
+/components 统一迁移全站 MoreToggle & 九板块 Title 与 返回组件
+/loading 流光 logo 过渡动画
+/home 缓存复用避免重复刷新
+/ui /recon 筛选区 & /sim 操作区 & /comp 筛选区 & /rank 筛选区 移动端布局优化
+/sim 操作区移动端布局优化
+/timer 解法逐步揭示
+/chat ai 回复渐入效果 & ui ux 优化 & PDF 导出报告样式优化
+/home 复盘区有无图片集中排列 & 窗口高度记忆 —— 恢复离开前位置
+/memo 首页入口直接进入字母对 —— 仅一个子项
+/predict ui 优化
+/frame-conut 样式适配站点主题
+/wcalive 选手成绩列表计算器和战队图标对齐
+/sop 多简单任务开多聊天而非 subagent
+/docs & /sheets 入口合并
+/timer cfzb分段适配
+/timer 智能魔方支持多魔方交替训练
+/comp 支持双比赛查询共同选手
+
+fix：
+/rank 届别排名筛选 bug
+/Android 启动时 logo 黑边 & timer 布局等未统一的兼容问题
+/Windows 额外的控制台窗口启动
+/scramble 单项目生成失败拖累整批结果
+/comp FTO 缺失
+/comp 成绩直播轮次切换页面跳动
