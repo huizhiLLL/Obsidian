@@ -1,5 +1,6 @@
 ---
 date: 2026/05/10
+image: /assets/1.svg
 tags:
   - 迁移
   - Kami
