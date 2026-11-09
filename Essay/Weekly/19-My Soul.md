@@ -1,8 +1,7 @@
 ---
 date: 2026/11/08
 image: /assets/26-19/bg.png
-tags:
-  - 实习
+description: 平静的旋律，说不清的情绪
 ---
 ### 实习
 
