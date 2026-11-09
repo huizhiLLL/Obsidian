@@ -1,11 +1,15 @@
 ---
 date: 2026/11/01
-tags:
-  - 前端
+description: 幻昼
+image: /assets/26-18/bg.jpg
 ---
+> [《Illusionary Daytime》](https://music.163.com/song?id=28907016&userid=5097490561) 
+
 ## 分享
 
 - [Flip | GSAP](https://gsap.com/docs/v3/Plugins/Flip/)：在两个状态之间无缝过渡！
+
+## 随便讲讲
 
 ### Klasma
 

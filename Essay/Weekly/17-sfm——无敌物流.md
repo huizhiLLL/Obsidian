@@ -1,10 +1,9 @@
 ---
 date: 2026/10/25
-tags:
-  - MC
-  - mole
+image: /assets/26-17/bg.jpg
+description: 逃避现实的花园
 ---
-> 这两周合并在一起写了，上周没怎么想起来记录
+> [《The Garden of Escapism》](https://music.163.com/song?id=35497894&userid=5097490561)
 
 ## 分享
 
