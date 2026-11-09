@@ -1,6 +1,6 @@
 ---
 date: 2026/06/07
-image: /assets/io.png
+image: /assets/26-05/bg.png
 tags:
   - 产品思考
   - 输入输出

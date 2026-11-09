@@ -1,6 +1,6 @@
 ---
 date: 2026/05/31
-image: /assets/yt.png
+image: /assets/26-04/bg.png
 tags:
   - LLCV
 ---
