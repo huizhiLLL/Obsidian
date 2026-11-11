@@ -1,16 +1,36 @@
 ---
 date: 2026/07/19
-tags:
-  - GPT
-  - Luna
-  - 开发
-  - RubiKey
-  - 抖音
-  - 吐槽
+image: /assets/26-11/bg.jpg
+description: 藏在轻快旋律里的浪漫
 ---
-> 对 Luna 的推荐，RubiKey 相关开发过程以及对 dy 的吐槽
+> [Flower Dance](https://music.163.com/song?id=22676167&uct2=U2FsdGVkX1+jTOHIvmUzGQhWSN++RDFNsoS/Xm0SCYY=) 「花之舞」，轻盈流畅的钢琴旋律，明亮而富有活力
 
-## 好物分享
+在音乐开头有一段对白，它取自 1960 年意大利科幻电影《Assignment: Outer Space》
+
+电影中，男女主角正在讨论太空站里的一种植物：
+
+Lucy: They serve the purpose of changing hydrogen into breathable oxygen, and they're as necessary here as the air is on Earth
+（就是说这些植物能够提供维持生命所必需的氧气）
+
+Ray: But I still say… they're flowers.
+
+Lucy: If you like.
+
+Ray: Do you sell them?
+
+Lucy: I'm afraid not.
+
+Ray: But maybe we could make a deal.
+
+音乐里的对白到这里便结束了，但电影中的对话其实还没有结束：
+
+女方好奇他所说的交易是什么意思，男方解释：他愿意出钱买下这些花，却不打算将它们带走，而是把它们留在原地，送给她。原来，他是借此向她表达好感。
+
+这就让整段对话有了一种很巧妙的浪漫感：在女方眼里，那是维持生命的植物；在男方眼里，它们还可以是一份礼物。
+
+---
+
+## 分享
 
 ### GPT-5.6-Luna（Max）
 
@@ -22,7 +42,9 @@ Luna 的执行成本低，耐用，日常开发完全够用~
 
 > 推荐模型也是好物分享（）
 
-## 开发（RubiKey）
+## 随便讲讲
+
+### 开发（RubiKey）
 
 起因是看到一个“用智能魔方玩地铁跑酷”的短视频，结果发现是录屏的......
 
@@ -45,7 +67,7 @@ UI 很切合我的口味，颜值很高（主题选择黑白）
 
 事实上，出于个人在智能魔方上的应用层花费太多时间和尝试，已逐渐感觉枯燥与乏味，觉得一直在整烂活 —— 技术上并没什么创新，只是应用层的缝合，而外人看来仍然存在一定的新鲜感。
 
-## 吐槽 —— dy
+### 吐槽 —— dy
 
 辛辛苦苦剪完 RubiKey 的教程视频，正准备发布在 dy 和 b 站时，却收到了以下的提示：
 

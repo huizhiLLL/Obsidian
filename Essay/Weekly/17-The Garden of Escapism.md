@@ -3,7 +3,7 @@ date: 2026/10/25
 image: /assets/26-17/bg.jpg
 description: 不要因为他人的干涉，失去自己真正重视的东西
 ---
-> [《The Garden of Escapism》](https://music.163.com/song?id=35497894&userid=5097490561)「逃避现实的花园」
+> [The Garden of Escapism](https://music.163.com/song?id=35497894&userid=5097490561)「逃避现实的花园」
 
 作者 Miro 的创作自述：
 
@@ -13,6 +13,8 @@ description: 不要因为他人的干涉，失去自己真正重视的东西
 这首歌我接触的比较早，曲中的人声对话在当时只能判断出二次元动漫类型的感觉，也未曾查询过出处
 
 直到高中某天追番的过程中，看到了 Clannad 智代篇这段对话场景，觉得异常熟悉 —— 原来我经常听的这首音乐，其中的人声就出自于这里！有种柳暗花明之感 ......
+
+---
 
 ## 分享
 

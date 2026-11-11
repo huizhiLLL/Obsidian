@@ -3,7 +3,9 @@ date: 2026/11/01
 description: " 既有告别，也有期待；既有放下，也有迷茫"
 image: /assets/26-18/bg.jpg
 ---
-> [《Illusionary Daytime》](https://music.163.com/song?id=28907016&userid=5097490561)「幻昼」，封面图来源于作者 Shirfine 在乘飞机离开曾经生活的城市时所拍摄，那段时间 Shirfine 正处于人生最低落的一段时期；回到家之后，终于感到了一些释然，但对未来依然充满不确定；之后不断创作音乐，希望通过音乐疗愈自己。
+> [Illusionary Daytime](https://music.163.com/song?id=28907016&userid=5097490561)「幻昼」，封面图来源于作者 Shirfine 在乘飞机离开曾经生活的城市时所拍摄，那段时间 Shirfine 正处于人生最低落的一段时期；回到家之后，终于感到了一些释然，但对未来依然充满不确定；之后不断创作音乐，希望通过音乐疗愈自己。
+
+---
 
 ## 分享
 
