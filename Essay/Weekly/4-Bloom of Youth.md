@@ -1,7 +1,7 @@
 ---
 date: 2026/05/31
 image: /assets/26-04/bg.png
-description:
+description: 青春最美好的地方，或许就在于当时的我们并不知道它有多么美好
 ---
 > [Bloom of Youth](https://music.163.com/song?id=760058&uct2=U2FsdGVkX1//qfrFh2BXxj72kbwXvH4QnbSDrK4/oq8=) 「风华正茂」
 

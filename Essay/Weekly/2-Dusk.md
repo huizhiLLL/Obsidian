@@ -1,11 +1,12 @@
 ---
 date: 2026/05/17
-image: /assets/26-02/dctimer.png
-tags:
-  - DCTImer-BLE
-  - 迁移
-  - codex
+image: /assets/26-02/bg.jpg
+description: 白昼将尽，暮色渐起，在一天的尾声里寻得片刻宁静
 ---
+> [Dusk](https://music.163.com/song?id=36953776&uct2=U2FsdGVkX19qVjpV8S6hTvrzhtG15+JuOP8O2SpESFI=) 「黄昏」
+
+---
+
 ## 分享
 
 1. [DESIGN.md](https://getdesign.md/)：面向 AI Agent 的设计文稿，收录了很多知名品牌/软件的设计

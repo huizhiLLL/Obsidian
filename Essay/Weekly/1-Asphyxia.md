@@ -1,13 +1,10 @@
 ---
 date: 2026/05/10
-image: /assets/26-01/wakatime.png
-tags:
-  - 迁移
-  - Kami
-  - 魔方
-  - 开发
-  - AI
+image: /assets/26-01/bg.png
+description: 生活的洪流让人们窒息，我们却在缺氧的环境中肆意成长
 ---
+> [Asphyxia](https://music.163.com/song?id=454035505&uct2=U2FsdGVkX1+98xo/H0Yh0wy2sVBbN4WyN5wgjYX77tA=) 「窒息」
+
 ## 随便讲讲
 
 > 首篇周刊，包括背景，分享和记录
