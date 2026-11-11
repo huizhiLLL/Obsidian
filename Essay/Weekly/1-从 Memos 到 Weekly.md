@@ -1,6 +1,6 @@
 ---
 date: 2026/05/10
-image: /assets/1.svg
+image: /assets/26-01/wakatime.png
 tags:
   - 迁移
   - Kami

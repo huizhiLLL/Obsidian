@@ -1,9 +1,12 @@
 ---
 date: 2026/05/31
 image: /assets/26-04/bg.png
-tags:
-  - LLCV
+description:
 ---
+> [Bloom of Youth](https://music.163.com/song?id=760058&uct2=U2FsdGVkX1//qfrFh2BXxj72kbwXvH4QnbSDrK4/oq8=) 「风华正茂」
+
+---
+
 ## 分享
 
 [「未来硅世界16期」访谈：tw93的开源故事和经验 / X](https://x.com/vista8/status/2058213893638689266) ：对 tw93 大佬的访谈文章，很有意思，推荐看看~
