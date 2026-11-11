@@ -6,15 +6,15 @@ tags:
   - 迁移
   - codex
 ---
-> 最流水账的一集：DCTimer-BLE ，新博客和服务器的迁移，Codex 折腾和开发
-
-## 好物分享
+## 分享
 
 1. [DESIGN.md](https://getdesign.md/)：面向 AI Agent 的设计文稿，收录了很多知名品牌/软件的设计
    Notion，Cursor，Apple，Claude......
 2. [Yepanywhere](https://yepanywhere.com/)：远程接管 Codex 等 Agent ，官方提供中转，易上手，直观的 Web UI，推荐尝试~
 
-## 流水账
+## 随便讲讲
+
+> 最流水账的一集：DCTimer-BLE ，新博客和服务器的迁移，Codex 折腾和开发
 
 ### DCTimer-BLE 
 

@@ -8,9 +8,11 @@ tags:
   - 开发
   - AI
 ---
+## 随便讲讲
+
 > 首篇周刊，包括背景，分享和记录
 
-## 背景
+### 背景
 
 偶然逛到 tw93 老师的 [潮流周刊](https://weekly.tw93.fun/) ，觉得不错，很有价值，（即便只是每周分享）
 （然后就 clone 下来二改自用了）
@@ -39,7 +41,7 @@ Memos 太碎 可沉淀价值太低
 
 >希望能坚持每周一篇
 
-## 好物分享
+## 分享
 
 - [Kami](https://github.com/tw93/Kami)：强约束的 AI 文档交付，优雅耐看，即便是前端答辩的 GPT 也能交付稳定风格的文档
 - [Kaku](https://github.com/tw93/Kaku)：Agent 开发的 skills 技能包，完整实用
@@ -49,7 +51,7 @@ Memos 太碎 可沉淀价值太低
 
 (用 Kami 生成的 WakaTime 分析报告)
 
-## 魔方相关开发
+### 魔方相关开发
 
 最近在写魔方相关的软件：
 - [SharpTimer](https://github.com/huizhiLLL/SharpTimer)：Win UI 3 原生计时器，支持智能魔方
@@ -82,7 +84,7 @@ Codex 用太多，现在对 Agent loop 和 Toolcall 的已经欲罢不能，所�
 最后在凌晨突发奇思，用我的第二台服务器测试接口的网络连通性，效果非常好。于是果断中转，并且排查出了之前总榜调不通的原因：GPT 把 competition_id 搞成 competitionId 了。
 唯一遗憾是选手主页的 PB 成绩没法完善查询，因为只能通过 userId 来查，而昵称 -> userId 的接口并不存在。
 
-## 依然焦虑
+### 依然焦虑
 
 大量时间冲浪，AI Fomo。
 课程学习忽略了很多 重蹈覆辙 依旧纯摆烂
