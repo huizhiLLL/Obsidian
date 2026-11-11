@@ -1,10 +1,14 @@
 ---
 date: 2026/07/05
-tags:
-  - AI
-  - 前端字体
-  - 曲折
+image: /assets/26-09/bg.jpg
+description: 一封没有文字的情书
 ---
+> [Luv Letter](https://music.163.com/song?id=406232&uct2=U2FsdGVkX1+M5c2Qw/hoDIYuaAQtpyzWRI1xe4VE70I=) 「情书」，从最初的舒缓逐渐变得明快、热烈，仿佛一封正在被慢慢写下的情书，原本小心翼翼的心意，终于随着音乐的推进变得难以掩饰。
+
+*一封情书最动人的地方，或许不在于措辞有多么华丽，而在于它承载了那些平时不敢轻易说出口的心意*
+
+---
+
 ## 随便讲讲
 
 ### 进入暑期
