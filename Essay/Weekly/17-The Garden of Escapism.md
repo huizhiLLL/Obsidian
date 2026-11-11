@@ -1,15 +1,14 @@
 ---
 date: 2026/10/25
 image: /assets/26-17/bg.jpg
-description: 逃避现实的花园
+description: 不要因为他人的干涉，失去自己真正重视的东西
 ---
-> [《The Garden of Escapism》](https://music.163.com/song?id=35497894&userid=5097490561)
+> [《The Garden of Escapism》](https://music.163.com/song?id=35497894&userid=5097490561)「逃避现实的花园」
 
 作者 Miro 的创作自述：
 
 <img src="./assets/26-17/en.png">
 <img src="./assets/26-17/zh.png">
-*不要因为他人的干涉，失去自己真正重视的东西*
 
 这首歌我接触的比较早，曲中的人声对话在当时只能判断出二次元动漫类型的感觉，也未曾查询过出处
 
